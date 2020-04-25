@@ -17,8 +17,7 @@ final class HomeAction
     public function __invoke(
         ServerRequestInterface $request,
         ResponseInterface $response
-    ) : ResponseInterface
-    {
+    ): ResponseInterface {
         $view = $this->view;
         $view->render($response, 'header.php');
         $view->render($response, 'home.php');

@@ -1,5 +1,6 @@
 {
     "require": {
+        "illuminate/database": "^7.8",
         "php-di/php-di": "^6.0",
         "selective/config": "^0.2.0",
         "slim/php-view": "^2.2",
