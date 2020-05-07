@@ -9,6 +9,8 @@ use Slim\Views\PhpRenderer;
 
 final class HomeAction
 {
+    private $view;
+
     public function __construct(PhpRenderer $view)
     {
         $this->view = $view;
@@ -19,7 +21,7 @@ final class HomeAction
         ResponseInterface $response
     ): ResponseInterface {
         $view = $this->view;
-        $view->render($response, 'header.php');
+        $view->render($response, 'header.php', ['title' => 'Rumah']);
         $view->render($response, 'home.php');
         $view->render($response, 'footer.php');
 

@@ -1,165 +1,75 @@
-<body>
-  <!-- Following Menu -->
-  <div class="ui large top fixed hidden menu">
-    <div class="ui container">
-      <a class="active item">Home</a>
-      <a class="item">Work</a>
-      <a class="item">Company</a>
-      <a class="item">Careers</a>
-      <div class="right menu">
-        <div class="item">
-          <a class="ui button">Log in</a>
-        </div>
-        <div class="item">
-          <a class="ui primary button">Sign Up</a>
-        </div>
-      </div>
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="rellax col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Punny headline</h1>
+        <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
     </div>
-  </div>
+    <div class="product-device box-shadow d-none d-md-block"></div>
+    <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+</div>
 
-  <!-- Sidebar Menu -->
-  <div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
-  </div>
-
-  <!-- Page Contents -->
-  <div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
-      <div class="ui container">
-        <div class="ui large secondary inverted pointing menu">
-          <a class="toc item">
-            <i class="sidebar icon"></i>
-          </a>
-          <a class="active item">Home</a>
-          <a class="item">Work</a>
-          <a class="item">Company</a>
-          <a class="item">Careers</a>
-          <div class="right item">
-            <a class="ui inverted button">Log in</a>
-            <a class="ui inverted button">Sign Up</a>
-          </div>
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">another headline</h2>
+            <p class="lead">and an even wittier subheading.</p>
+                <img src="images/profile.jpg" class="img-thumbnail">
+            <p class="lead">asoy geboy</p>
         </div>
-      </div>
-
-      <div class="ui text container">
-        <h1 class="ui inverted header">
-          Imagine-a-Company
-        </h1>
-        <h2>Do whatever you want when you want to.</h2>
-        <div class="ui huge primary button">
-          Get Started <i class="right arrow icon"></i>
+    </div>
+<div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">another headline</h2>
+            <p class="lead">and an even wittier subheading.</p>
+                <img src="images/profile.jpg" class="img-thumbnail">
+            <p class="lead">asoy geboy</p>
         </div>
-      </div>
     </div>
 
-    <div class="ui vertical stripe segment">
-      <div class="ui middle aligned stackable grid container">
-        <div class="row">
-          <div class="eight wide column">
-            <h3 class="ui header">We Help Companies and Companions</h3>
-            <p>
-              We can give your company superpowers to do things that they never
-              thought possible. Let us delight your customers and empower your
-              needs...through pure data analytics.
-            </p>
-            <h3 class="ui header">We Make Bananas That Can Dance</h3>
-            <p>
-              Yes that's right, you thought it was the stuff of dreams, but even
-              bananas can be bioengineered.
-            </p>
-          </div>
-          <div class="six wide right floated column">
-            <img
-              src="assets/images/wireframe/white-image.png"
-              class="ui large bordered rounded image"
-            />
-          </div>
+</div>
+<footer class="container py-5">
+    <div class="row">
+        <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+            <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
         </div>
-        <div class="row">
-          <div class="center aligned column">
-            <a class="ui huge button">Check Them Out</a>
-          </div>
+        <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Cool stuff</a></li>
+                <li><a class="text-muted" href="#">Random feature</a></li>
+                <li><a class="text-muted" href="#">Team feature</a></li>
+                <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                <li><a class="text-muted" href="#">Another one</a></li>
+                <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
         </div>
-      </div>
-    </div>
-
-    <div class="ui vertical stripe quote segment">
-      <div class="ui equal width stackable internally celled grid">
-        <div class="center aligned row">
-          <div class="column">
-            <h3>"What a Company"</h3>
-            <p>That is what they all say about us</p>
-          </div>
-          <div class="column">
-            <h3>"I shouldn't have gone with their competitor."</h3>
-            <p>
-              <img src="assets/images/avatar/nan.jpg" class="ui avatar image" />
-              <b>Nan</b> Chief Fun Officer Acme Toys
-            </p>
-          </div>
+        <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Resource</a></li>
+                <li><a class="text-muted" href="#">Resource name</a></li>
+                <li><a class="text-muted" href="#">Another resource</a></li>
+                <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
         </div>
-      </div>
-    </div>
-
-    <div class="ui vertical stripe segment">
-      <div class="ui text container">
-        <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-        <p>
-          Instead of focusing on content creation and hard work, we have learned
-          how to master the art of doing nothing by providing massive amounts of
-          whitespace and generic content that can seem massive, monolithic and
-          worth your attention.
-        </p>
-        <a class="ui large button">Read More</a>
-        <h4 class="ui horizontal header divider">
-          <a href="#">Case Studies</a>
-        </h4>
-        <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-        <p>
-          Yes I know you probably disregarded the earlier boasts as non-sequitur
-          filler content, but its really true. It took years of gene splicing
-          and combinatory DNA research, but our bananas can really dance.
-        </p>
-        <a class="ui large button">I'm Still Quite Interested</a>
-      </div>
-    </div>
-
-    <div class="ui inverted vertical footer segment">
-      <div class="ui container">
-        <div class="ui stackable inverted divided equal height stackable grid">
-          <div class="three wide column">
-            <h4 class="ui inverted header">About</h4>
-            <div class="ui inverted link list">
-              <a href="#" class="item">Sitemap</a>
-              <a href="#" class="item">Contact Us</a>
-              <a href="#" class="item">Religious Ceremonies</a>
-              <a href="#" class="item">Gazebo Plans</a>
-            </div>
-          </div>
-          <div class="three wide column">
-            <h4 class="ui inverted header">Services</h4>
-            <div class="ui inverted link list">
-              <a href="#" class="item">Banana Pre-Order</a>
-              <a href="#" class="item">DNA FAQ</a>
-              <a href="#" class="item">How To Access</a>
-              <a href="#" class="item">Favorite X-Men</a>
-            </div>
-          </div>
-          <div class="seven wide column">
-            <h4 class="ui inverted header">Footer Header</h4>
-            <p>
-              Copyright &copy
-              <?= $appName ?>,
-              <?= date('Y') ?>
-            </p>
-          </div>
+        <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Business</a></li>
+                <li><a class="text-muted" href="#">Education</a></li>
+                <li><a class="text-muted" href="#">Government</a></li>
+                <li><a class="text-muted" href="#">Gaming</a></li>
+            </ul>
         </div>
-      </div>
+        <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Team</a></li>
+                <li><a class="text-muted" href="#">Locations</a></li>
+                <li><a class="text-muted" href="#">Privacy</a></li>
+                <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
-</body>
+</footer>
