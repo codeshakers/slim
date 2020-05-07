@@ -37,7 +37,13 @@ return [
     },
     PhpRenderer::class => function(ContainerInterface $container) {
         $templateVariables = [
-            'appName' => 'Slim'
+            'appName' => 'Slim',
+            'date' => date('Y'),
+            'link' => array(
+                'home',
+                'pesan-produk',
+                'lainya'
+            ),
         ];
 
         return new PhpRenderer('../templates', $templateVariables);

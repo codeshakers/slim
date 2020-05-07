@@ -7,7 +7,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Container\ContainerInterface;
 use Slim\Views\PhpRenderer;
 
-final class HomeAction
+final class PesanProdukAction
 {
     private $view;
 
@@ -20,10 +20,9 @@ final class HomeAction
         ServerRequestInterface $request,
         ResponseInterface $response
     ): ResponseInterface {
-
         $view = $this->view;
-        $view->render($response, 'header.php', ['title' => 'Rumah']);
-        $view->render($response, 'home.php'); // get from db
+        $view->render($response, 'header.php', ['title' => 'Pesan Produk']);
+        $view->render($response, 'pesan-produk.php');
         $view->render($response, 'footer.php');
 
         return $response;
