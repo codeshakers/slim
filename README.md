@@ -5,7 +5,7 @@
 
 Slim 4 skeleton with basic parallax homepages
 ## demo
-[heroku](https://cvar-slim.herokuapp.com/slim)
+[heroku](https://cvar-slim.herokuapp.com)
 ## install to webroot
 clone to your htdocs
 ```sh
