@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Slim 4 skeleton with basic parallax homepages
+## demo
+[heroku](https://cvar-slim.herokuapp.com/slim)
 ## install to webroot
 clone to your htdocs
 ```sh
