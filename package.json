@@ -1,5 +1,6 @@
 {
     "dependencies": {
+        "local" : "file:public/assets/local",
         "bootstrap": "latest",
         "holder": "latest",
         "jquery": "latest",
