@@ -19,6 +19,3 @@ jobs:
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress --no-suggest
-
-    - name: Run test suite
-      run: php -S 127.0.0.1:8080 -t public
