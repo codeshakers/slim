@@ -1,4 +1,4 @@
-<<link
+<link
   rel="stylesheet"
   href="assets/local/css/profile.css"
   type="text/css"
