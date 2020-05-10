@@ -47,10 +47,10 @@
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/popper.js/dist/popper.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="node_modules/rellax/rellax.min.js"></script>
+<script src="assets/jquery/dist/jquery.min.js"></script>
+<script src="assets/popper.js/dist/popper.min.js"></script>
+<script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/rellax/rellax.min.js"></script>
 
 <script>
   // This is the default setting

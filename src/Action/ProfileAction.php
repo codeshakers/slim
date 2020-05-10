@@ -7,7 +7,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Container\ContainerInterface;
 use Slim\Views\PhpRenderer;
 
-final class PesanProdukAction
+final class ProfileAction
 {
     private $view;
 
@@ -21,8 +21,8 @@ final class PesanProdukAction
         ResponseInterface $response
     ): ResponseInterface {
         $view = $this->view;
-        $view->render($response, 'header.php', ['title' => 'Pesan Produk']);
-        $view->render($response, 'pesan-produk.php');
+        $view->render($response, 'header.php', ['title' => 'Artist Profile']);
+        $view->render($response, 'profile.php');
         $view->render($response, 'footer.php');
 
         return $response;

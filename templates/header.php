@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-   <link href="product.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+   <link href="assets/local/css/product.css" rel="stylesheet">
    <title><?= $title ?></title>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 <a class="navbar-brand" href="#"><?= $appName ?></a>
