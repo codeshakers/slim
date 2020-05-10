@@ -1,6 +1,7 @@
 # Slim 4 skeleton
 
 [![CodeFactor](https://www.codefactor.io/repository/github/cvar1984/slim/badge)](https://www.codefactor.io/repository/github/cvar1984/slim)
+![PHP Composer](https://github.com/Cvar1984/slim/workflows/PHP%20Composer/badge.svg?branch=master)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Slim 4 skeleton with basic parallax homepages
