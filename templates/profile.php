@@ -5,7 +5,9 @@
   >
     <div class="my-3 py-3">
       <h2 class="display-5">Iwakura Lain</h2>
-      <img src="assets/local/images/lain.jpg" class="img-thumbnail" />
+      <a href="profile-galeri">
+        <img src="assets/local/images/lain.jpg" href class="img-thumbnail" />
+      </a>
       <p class="m-5 lead">
         Lain is a fourteen-year-old girl who uncovers her true nature through
         the series. She is first depicted as a shy junior high school student
