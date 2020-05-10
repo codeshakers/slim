@@ -39,10 +39,10 @@ return [
         $templateVariables = [
             'appName' => 'Slim',
             'date' => date('Y'),
+            'intro' => 'And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple\'s marketing pages.',
             'link' => array(
                 'home',
-                'pesan-produk',
-                'lainya'
+                'profile'
             ),
         ];
 

@@ -65,7 +65,7 @@
   });
   
   var rellax = new Rellax('.rellax-images', {
-    speed: 4,
+    speed: 3,
     center: true,
     wrapper: null,
     round: true,
