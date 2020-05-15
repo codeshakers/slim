@@ -9,8 +9,13 @@ Slim 4 skeleton with basic parallax homepages
 [heroku](https://cvar-slim.herokuapp.com)
 ## install to webroot
 clone to your htdocs
+### using git
 ```sh
 git clone <link>
+```
+### using composer
+```sh
+composer create-project cvar1984/slim:dev-master --prefer-dist
 ```
 move everything to `/var/www/html (webroot)`
 
@@ -31,8 +36,13 @@ php -S 127.0.0.1:8080 -t /var/www/html/public
 ```
 ## install to webroot/custom
 clone to your htdocs
+### using git
 ```sh
 git clone <link>
+```
+### using composer
+```sh
+composer create-project cvar1984/slim:dev-master custom --prefer-dist
 ```
 move everything to `/var/www/html/custom (webroot)`
 
